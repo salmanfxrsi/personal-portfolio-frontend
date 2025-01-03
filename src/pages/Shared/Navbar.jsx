@@ -1,3 +1,5 @@
+import DownloadResumeButton from "../../components/DownloadResumeButton";
+
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between px-[40px] py-[20px]">
@@ -7,9 +9,7 @@ const Navbar = () => {
       </div>
       {/* NavLinks and Others */}
       <div>
-        <button className="text-[#FF014F] font-poppins text-sm bg-[linear-gradient(to_right_bottom,#212428,#16181c)] py-[15px] px-[35px] rounded-md hover:translate-y-[-6px] transition-transform duration-500 font-black">
-          Download Resume
-        </button>
+        <DownloadResumeButton></DownloadResumeButton>
       </div>
     </div>
   );
